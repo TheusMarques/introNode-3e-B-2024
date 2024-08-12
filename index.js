@@ -6,7 +6,7 @@ const app = express ();
 const porta =4141;
 
 app.get('/',(request,response)=>{
-    response.send("relou word")
+    response.send("bacili is gay")
 })
 
 app.listen(porta,() =>{
