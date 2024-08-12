@@ -19,3 +19,15 @@ const config = {
     connectionLimit : 10, 
     queueLimit: 0,
 }
+
+try {
+    connection = mysql.createPool(config);
+
+    console.log('Chamou conexão Mysql');
+}
+
+catch (error) {console.error(error);
+
+}
+
+module.exports = connection;
