@@ -4,6 +4,7 @@ module.exports = {
 
     async ListarUsuario(request, response){
         try{
+            //throw new Error('Eu causei o erro!');
             return response.status(200).json({
                 sucesso: true,
                 mensagem: 'Lista de Usuarios',
@@ -17,4 +18,8 @@ module.exports = {
             });
         }
     }
+},
+
+async cadastrarUsuarios(request, response) {
+    try
 }

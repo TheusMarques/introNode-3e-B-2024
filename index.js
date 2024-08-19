@@ -12,7 +12,7 @@ app.use(router);
 const porta =4141;
 
 app.get('/',(request,response)=>{
-    response.send("bacili is gay")
+    response.send("Minha API")
 })
 
 app.listen(porta,() =>{
