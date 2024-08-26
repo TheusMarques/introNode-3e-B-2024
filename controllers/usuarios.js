@@ -18,8 +18,5 @@ module.exports = {
             });
         }
     }
-},
-
-async cadastrarUsuarios(request, response) {
-    try
 }
+
